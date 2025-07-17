@@ -1,0 +1,19 @@
+ccxt>=4.0.0
+python-telegram-bot>=20.0
+numpy>=1.23
+pandas>=1.5
+scipy>=1.10
+requests>=2.28
+python-dotenv>=1.0
+loguru>=0.7
+websockets>=11.0
+httpx>=0.24
+pyyaml>=6.0
+matplotlib>=3.7
+plotly>=5.15
+kaleido>=0.2.1
+# --- TESTING ---
+pytest>=7.0
+pytest-asyncio>=0.21
+pytest-mock>=3.10
+requests-mock>=1.11 

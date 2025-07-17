@@ -1,0 +1,189 @@
+2025-07-16 02:02:12.308 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 02:02:16.516 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 02:02:17.723 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 02:02:22.429 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 02:02:24.131 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 02:02:29.588 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 02:02:32.055 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 02:02:35.638 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 02:02:39.306 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 02:02:45.072 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 02:02:49.389 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 02:02:57.557 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 02:03:01.778 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 02:05:50.325 | ERROR    | exchanges.okx:fetch_orderbook:35 - OKX orderbook error for symbol BTC/USDT: 
+Status: No response
+Response: No response
+2025-07-16 02:06:00.324 | ERROR    | exchanges.okx:fetch_orderbook:35 - OKX orderbook error for symbol ETH/USDT: 
+Status: No response
+Response: No response
+2025-07-16 02:09:05.169 | ERROR    | exchanges.okx:fetch_orderbook:35 - OKX orderbook error for symbol BTC/USDT: 
+Status: No response
+Response: No response
+2025-07-16 02:09:15.172 | ERROR    | exchanges.okx:fetch_orderbook:35 - OKX orderbook error for symbol ETH/USDT: 
+Status: No response
+Response: No response
+2025-07-16 02:15:32.216 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-07-16 05:21:15.521 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-07-16 05:21:19.622 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-07-16 12:37:43.828 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-07-16 12:37:46.098 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-07-16 12:37:49.482 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-07-16 12:37:54.561 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-07-16 12:38:02.163 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-07-16 12:38:13.547 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-07-16 12:38:30.652 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-07-16 12:38:56.298 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-07-16 12:39:26.313 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-07-16 12:58:43.938 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 12:58:48.158 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 12:58:49.395 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 12:58:54.141 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 12:58:55.988 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 12:59:01.583 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 12:59:04.073 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 12:59:07.663 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 12:59:11.344 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 12:59:17.013 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 12:59:22.727 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 12:59:31.183 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 12:59:39.566 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 12:59:52.573 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 12:59:56.944 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:00:14.684 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:00:18.910 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:00:45.425 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:00:49.711 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:01:20.382 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:01:24.607 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:01:55.348 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:01:59.573 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:02:30.386 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:02:34.633 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:03:05.272 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:03:09.493 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:03:40.081 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:03:44.301 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:04:14.930 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:04:19.161 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:04:49.792 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:04:54.071 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:05:24.790 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:05:29.110 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:05:59.831 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:06:04.031 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:06:34.668 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:06:38.879 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:07:09.525 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:07:13.738 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:07:44.406 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:07:48.640 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:08:19.272 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:08:23.513 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:08:54.235 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:08:58.553 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:09:29.276 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:09:33.512 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:10:04.215 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:10:08.421 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:10:13.175 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: httpx.ReadError: 
+2025-07-16 13:10:39.038 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:10:43.242 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:11:13.882 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:11:18.106 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:11:48.843 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:11:53.092 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:12:23.805 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:12:28.031 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:12:58.771 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:13:03.045 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:13:33.873 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:13:38.085 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:14:08.766 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:14:13.035 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:14:43.716 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:14:47.912 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:15:18.547 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:15:22.752 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:15:53.510 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:15:57.768 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:16:28.540 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 13:16:32.805 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-16 16:16:49.033 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-07-16 16:16:50.055 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-07-17 17:19:51.360 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-07-17 17:19:52.369 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-07-17 17:19:53.881 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-07-17 17:19:55.980 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-07-17 17:19:56.132 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-07-17 17:19:59.518 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-07-17 17:20:04.590 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-07-17 17:20:12.196 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-07-17 17:20:26.602 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:20:30.825 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:21:01.461 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:21:05.681 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:21:36.468 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:21:40.786 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:22:11.435 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:22:15.648 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:22:46.330 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:22:50.551 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:23:21.384 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:23:25.598 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:23:56.255 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:24:00.627 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:24:31.285 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:24:35.505 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:24:36.791 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:24:41.111 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:24:42.841 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:24:47.566 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:24:50.073 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:24:55.545 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:24:59.141 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:25:02.728 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:25:08.530 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:25:14.395 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:25:22.718 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:25:30.959 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:25:43.032 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:25:47.234 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:26:05.008 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:26:09.215 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:26:35.463 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:26:39.680 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:27:10.353 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:27:14.548 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:27:45.274 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:27:49.502 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:28:20.318 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:28:24.549 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:28:55.316 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:28:59.677 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:29:30.313 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:29:34.557 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:30:05.222 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:30:09.428 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:30:40.159 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:30:44.360 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:31:15.273 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:31:19.484 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:31:50.228 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:31:54.425 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:32:25.201 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:32:29.425 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:33:00.089 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:33:04.318 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:33:35.058 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:33:39.364 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:34:09.978 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:34:14.230 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:34:45.041 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:34:49.262 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:35:19.936 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:35:24.150 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:35:54.857 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:35:59.071 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:36:29.674 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-17 17:36:33.923 | ERROR    | telegram_bot.bot:error_handler:129 - Bot error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
