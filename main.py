@@ -9,7 +9,7 @@ from telegram_bot import run_bot
 
 async def setup_demo_positions(risk_manager: RiskManager):
     """Add some demo positions for testing"""
-    await risk_manager.update_position("BTC/USDT", "okx", 0.1, 45000.0)
+    # await risk_manager.update_position("BTC/USDT", "okx", 0.1, 45000.0)
     await risk_manager.update_position("ETH/USDT", "bybit", 1.0, 2800.0)
     logger.info("Demo positions added")
 
@@ -33,4 +33,4 @@ def main():
     run_bot(risk_manager)
 
 if __name__ == "__main__":
-    main() 
+    main()
