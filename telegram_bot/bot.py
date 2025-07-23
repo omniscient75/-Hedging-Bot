@@ -2,8 +2,8 @@ import asyncio
 import nest_asyncio
 from typing import Dict, Any
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, BotCommand
-from telegram.ext import (Application, CommandHandler, CallbackQueryHandler, ContextTypes, ConversationHandler)
-from config import TELEGRAM_TOKEN, TELEGRAM_CHAT_ID
+from telegram.ext import (Application, CommandHandler, CallbackQueryHandler, ContextTypes, ConversationHandler, MessageHandler, filters)
+from config import TELEGRAM_TOKEN, TELEGRAM_CHAT_ID, REGISTRATION_MODE, ADMIN_USER_IDS, INVITE_CODE, TELEGRAM_ALLOWED_USER_IDS
 from logger import logger
 
 # Enable nested event loops for Python 3.13 compatibility
@@ -17,20 +17,45 @@ risk_manager = None
 
 # --- Authentication ---
 def is_authenticated(user_id: int) -> bool:
-    # For demo: only allow the configured chat/user ID
-    return str(user_id) == str(TELEGRAM_CHAT_ID)
+    return str(user_id) in TELEGRAM_ALLOWED_USER_IDS or str(user_id) in ADMIN_USER_IDS
 
 # --- Command Handlers ---
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    user_id = update.effective_user.id
-    if not is_authenticated(user_id):
-        await update.message.reply_text("Unauthorized user.")
+    user_id = str(update.effective_user.id)
+    if user_id in ADMIN_USER_IDS:
+        await update.message.reply_text("Welcome, Admin! You have full access.")
         return
-    user_sessions[user_id] = {"active": True}
-    await update.message.reply_text(
-        "Welcome to the Crypto Hedging Bot! Use /help to see available commands."
-    )
-    logger.info(f"User {user_id} started session.")
+    if is_authenticated(user_id):
+        await update.message.reply_text("Welcome back!")
+        return
+    if REGISTRATION_MODE == 'admin':
+        # Notify all admins for approval
+        for admin_id in ADMIN_USER_IDS:
+            try:
+                await context.bot.send_message(
+                    chat_id=admin_id,
+                    text=f"User {user_id} ({update.effective_user.full_name}) requests access. Approve with /approve {user_id}"
+                )
+            except Exception as e:
+                logger.error(f"Failed to notify admin {admin_id}: {e}")
+        await update.message.reply_text("Your registration request has been sent to the admin. Please wait for approval.")
+    elif REGISTRATION_MODE == 'open':
+        TELEGRAM_ALLOWED_USER_IDS.add(user_id)
+        await update.message.reply_text("You have been registered and can now use the bot!")
+        # Notify all admins about the new user
+        for admin_id in ADMIN_USER_IDS:
+            try:
+                await context.bot.send_message(
+                    chat_id=admin_id,
+                    text=f"New user registered: {update.effective_user.full_name} (ID: {user_id})"
+                )
+            except Exception as e:
+                logger.error(f"Failed to notify admin {admin_id}: {e}")
+    elif REGISTRATION_MODE == 'invite':
+        await update.message.reply_text("Please enter the invite code to register:")
+        context.user_data['awaiting_invite_code'] = True
+    else:
+        await update.message.reply_text("Registration mode is not configured correctly.")
 
 async def help_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = update.effective_user.id
@@ -124,6 +149,37 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     elif query.data == "view_analytics":
         await query.edit_message_text("Analytics: (demo)\nPnL: 0.00\nSharpe: 0.00", reply_markup=main_keyboard())
 
+# --- Registration Handler ---
+async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    user_id = str(update.effective_user.id)
+    if context.user_data.get('awaiting_invite_code'):
+        code = update.message.text.strip()
+        if code == INVITE_CODE:
+            TELEGRAM_ALLOWED_USER_IDS.add(user_id)
+            context.user_data['awaiting_invite_code'] = False
+            await update.message.reply_text("Invite code accepted! You are now registered.")
+        else:
+            await update.message.reply_text("Incorrect invite code. Please try again:")
+    else:
+        await update.message.reply_text("Unknown command or message.")
+
+# --- Approve Command ---
+async def approve(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    admin_id = str(update.effective_user.id)
+    if admin_id not in ADMIN_USER_IDS:
+        await update.message.reply_text("You are not authorized to approve users.")
+        return
+    if context.args and len(context.args) == 1:
+        approve_id = context.args[0]
+        TELEGRAM_ALLOWED_USER_IDS.add(approve_id)
+        await update.message.reply_text(f"User {approve_id} has been approved.")
+        try:
+            await context.bot.send_message(chat_id=approve_id, text="Your registration has been approved! You can now use the bot.")
+        except Exception:
+            pass
+    else:
+        await update.message.reply_text("Usage: /approve <user_id>")
+
 # --- Error Handler ---
 async def error_handler(update: object, context: ContextTypes.DEFAULT_TYPE):
     logger.error(f"Bot error: {context.error}")
@@ -142,7 +198,9 @@ def run_bot(risk_mgr=None):
     app.add_handler(CommandHandler("monitor_risk", monitor_risk))
     app.add_handler(CommandHandler("hedge_status", hedge_status))
     app.add_handler(CommandHandler("auto_hedge", auto_hedge))
+    app.add_handler(CommandHandler("approve", approve))
     app.add_handler(CallbackQueryHandler(button_handler))
+    app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
     app.add_error_handler(error_handler)
     logger.info("Telegram bot started.")
     app.run_polling()
