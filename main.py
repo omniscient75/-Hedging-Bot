@@ -9,7 +9,6 @@ if sys.platform.startswith('win') and hasattr(asyncio, 'WindowsSelectorEventLoop
     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 elif sys.platform.startswith('win') and hasattr(asyncio, 'WindowsProactorEventLoopPolicy'):
     asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())
-
 from config import *
 from logger import logger
 from exchanges import ExchangeManager
