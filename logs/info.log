@@ -465,3 +465,20 @@ Response: No response
 2025-07-22 23:42:26.487 | INFO     | __main__:setup_demo_positions:14 - Demo positions added
 2025-07-22 23:42:26.771 | INFO     | risk.manager:calculate_real_time_risk:63 - Risk calculated: Delta=1.0000, VaR=0.00
 2025-07-22 23:42:26.822 | INFO     | telegram_bot.bot:run_bot:147 - Telegram bot started.
+2025-07-23 01:08:45.144 | INFO     | __main__:main:21 - Starting Crypto Hedging Bot...
+2025-07-23 01:08:45.322 | INFO     | risk.manager:update_position:26 - Updated position: ETH/USDT on bybit
+2025-07-23 01:08:45.322 | INFO     | __main__:setup_demo_positions:14 - Demo positions added
+2025-07-23 01:08:45.804 | INFO     | risk.manager:calculate_real_time_risk:63 - Risk calculated: Delta=1.0000, VaR=0.00
+2025-07-23 01:08:45.830 | INFO     | telegram_bot.bot:run_bot:147 - Telegram bot started.
+2025-07-23 01:08:47.747 | INFO     | telegram_bot.bot:start:33 - User 1846343095 started session.
+2025-07-23 01:08:48.122 | INFO     | telegram_bot.bot:start:33 - User 1846343095 started session.
+2025-07-23 01:09:27.604 | INFO     | telegram_bot.bot:start:33 - User 1846343095 started session.
+2025-07-23 01:10:05.828 | INFO     | telegram_bot.bot:button_handler:121 - User 1846343095 triggered Hedge Now.
+2025-07-23 01:42:14.150 | INFO     | __main__:main:21 - Starting Crypto Hedging Bot...
+2025-07-23 01:42:14.305 | INFO     | risk.manager:update_position:26 - Updated position: ETH/USDT on bybit
+2025-07-23 01:42:14.307 | INFO     | __main__:setup_demo_positions:14 - Demo positions added
+2025-07-23 01:42:14.752 | INFO     | risk.manager:calculate_real_time_risk:63 - Risk calculated: Delta=1.0000, VaR=0.00
+2025-07-23 01:42:14.778 | INFO     | telegram_bot.bot:run_bot:147 - Telegram bot started.
+2025-07-23 01:42:16.951 | INFO     | telegram_bot.bot:start:33 - User 1846343095 started session.
+2025-07-23 01:42:17.310 | INFO     | telegram_bot.bot:start:33 - User 1846343095 started session.
+2025-07-23 01:42:47.585 | INFO     | telegram_bot.bot:start:33 - User 1846343095 started session.

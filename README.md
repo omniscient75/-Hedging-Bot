@@ -1,7 +1,6 @@
 # Crypto Hedging Bot
 
-A sophisticated cryptocurrency hedging bot for Bybit exchange risk management, real-time analytics, and Telegram control interface. Designed for scalable deployment (e.g., PythonAnywhere).
-
+A sophisticated cryptocurrency hedging bot for Bybit exchange risk management, real-time analytics, and Telegram control interface. 
 ---
 
 ## 1. System Architecture
