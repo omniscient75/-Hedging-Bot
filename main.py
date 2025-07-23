@@ -1,5 +1,15 @@
+
 import asyncio
-asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+import sys
+
+# Replace this line:
+# asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+
+# With this cross-platform version:
+if sys.platform.startswith('win') and hasattr(asyncio, 'WindowsSelectorEventLoopPolicy'):
+    asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+elif sys.platform.startswith('win') and hasattr(asyncio, 'WindowsProactorEventLoopPolicy'):
+    asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())
 
 from config import *
 from logger import logger
