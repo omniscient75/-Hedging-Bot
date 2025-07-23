@@ -1,4 +1,3 @@
-
 import asyncio
 import sys
 
@@ -16,6 +15,22 @@ from logger import logger
 from exchanges import ExchangeManager
 from risk import RiskManager
 from telegram_bot import run_bot
+from telegram import Update
+from telegram.ext import ContextTypes
+
+TELEGRAM_ALLOWED_USER_IDS = set()  # Use a set for fast lookup
+
+def is_authenticated(user_id: int) -> bool:
+    return user_id in TELEGRAM_ALLOWED_USER_IDS
+
+async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    user_id = update.effective_user.id
+    if not is_authenticated(user_id):
+        TELEGRAM_ALLOWED_USER_IDS.add(user_id)
+        # Optionally, persist this to a file/database
+        await update.message.reply_text("You have been registered and can now use the bot!")
+    else:
+        await update.message.reply_text("Welcome back!")
 
 async def setup_demo_positions(risk_manager: RiskManager):
     """Add some demo positions for testing"""
